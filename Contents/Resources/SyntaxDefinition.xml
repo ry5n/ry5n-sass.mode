@@ -8,14 +8,14 @@
     </head>  
 
     <states>
-        <default id="Base" color="#000" inverted-color="#fff" background-color="#fff" font-weight="bold" font-style="normal">  
+        <default id="Base" color="#222" inverted-color="#eee" background-color="#fff" font-weight="normal" font-style="normal">  
             <keywords id="Properties" font-style="normal" font-weight="normal" color="#0033cc" useforautocomplete="yes">
 
             	<regex>(?&lt;![\d\w])(?i)(_background)</regex>
             	<regex>(?&lt;![\d\w])(?i)(_filter)</regex>
             	<regex>(?&lt;![\d\w])(?i)(filter)</regex>
             	<regex>(?&lt;![\d\w])(?i)(overflow-x)</regex>
-        		<regex>(?&lt;![\d\w])(?i)(overflow-y)</regex>
+        		  <regex>(?&lt;![\d\w])(?i)(overflow-y)</regex>
 
             	<regex>(?&lt;![\d\w])(?i)(azimuth)</regex>
             	<regex>(?&lt;![\d\w])(?i)(background-attachment)</regex>
@@ -270,7 +270,7 @@
             </keywords>
             
 	       	<keywords id="Digits" color="#6600cc" font-style="normal" useforautocomplete="yes">
-		        <regex>(?&lt;![#\d\w])([\d]+[ \t]*(?:px|pt|em|ex|cm|in|mm|pc|%)?)</regex>
+		        <regex>(?&lt;![#\d\w])([\d]+[ \t]*(?:px|pt|em|rem|ex|cm|in|mm|pc|%)?)</regex>
 	    	</keywords>
 	    	
 	    	<keywords id="Colors" color="#336699" font-style="normal" useforautocomplete="yes">
