@@ -1,6 +1,6 @@
 Sass.mode
 
-I’m no longer maintaining this syntax mode. For a Sass mode supported for Coda 2, you can try:
+PLEASE NOTE: I’m no longer maintaining this syntax mode. For a Sass mode supported for Coda 2, you can try:
 - https://github.com/dw2/Sass.mode
 - https://github.com/ry5n/scss.mode
 
